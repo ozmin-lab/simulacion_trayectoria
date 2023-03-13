@@ -1,3 +1,47 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut sollicitudin erat, at suscipit nisl. Mauris eget justo id erat rutrum dictum eget id felis. Nunc aliquet vel velit quis faucibus. Praesent quis tincidunt nibh. Duis bibendum ut velit molestie molestie. Donec ultrices, lectus at tempor condimentum, erat urna facilisis ex, vitae ullamcorper lorem ipsum sit amet massa. Donec nec mauris felis. Morbi congue ac dolor quis tempus. Morbi eget turpis quis tellus sagittis ornare non sit amet eros. Vivamus at malesuada ex. Nunc augue felis, placerat non velit quis, tempor gravida enim. Curabitur vulputate, odio et mollis aliquam, neque metus iaculis lacus, at auctor risus nunc sed tellus. Nulla et risus consectetur ligula tempus consectetur. Nullam dignissim massa est, vel lacinia tellus posuere nec. Cras porttitor mauris vel massa aliquet, vitae feugiat ipsum aliquam.
+# Proyecto de Graduación: "Simulación de Trayectoria" 🎈
 
-Fusce lacus felis, aliquet tincidunt lacus eget, congue sodales massa. Sed id gravida mauris. Aenean dignissim lorem vitae sem consequat, at ultricies mi aliquam. Duis posuere quam ac dolor cursus, faucibus porttitor tortor efficitur. Integer viverra fermentum rhoncus. Vestibulum et orci sapien. Nulla ligula sem, fermentum sed bibendum dignissim, vulputate et urna. Sed sed felis iaculis, pretium leo at, volutpat diam. Vivamus efficitur ex blandit augue laoreet, in elementum lacus accumsan. Suspendisse dignissim sapien eu scelerisque varius. Duis elementum sem ut finibus fermentum. Morbi id sem ut justo maximus interdum nec eget elit. Aliquam imperdiet, ex nec ultricies malesuada, dui ante dignissim metus, a bibendum eros nibh vitae nibh.
+Proyecto realizado por Osmin Larreynaga con asesoria de Ms. Napoleón Cornejo. 
+
+Se crea una simulación de trayectoria ascendete y descendete de un globo-sonda a 30 Km, analizandose diferentes parámetros a lo largo de su recorrido.
+
+## Estructura del Proyecto 📦
+(ESTO SE IRÁ MODIFICANDO A MEDIDA AVANCE EL PROYECTO, ES SOLAMENTE UNA BUENA IDEA DE LA ESTRUCTURA)
+
+    ├── LICENSE.txt
+    ├── README.md           **<- La guía del proyecto.**
+    ├── data_generate_from_model
+    │   ├── README.md
+    │   └── variables.csv
+    ├── docs                **<- Referencias Bibliográficas.**
+    │   └── us-standard-atmosphere_st76-1562_noaa.pdf
+    ├── img
+    │   └── FasesDeVueloMission_StratoBalloon.png
+    ├── notebooks           **<- Jupyter Notebooks con cálculos.**
+    │   ├── EDA.ipynb
+    │   ├── Red Neuronal_TAC.ipynb
+    │   ├── balloon.ipynb
+    │   └── modelo.ipynb
+    ├── requirements.txt    **<- Librerías del proyecto.**
+    └── scripts_functions
+
+## Proceso de Instalación ⚙️
+![](https://thumbs.gfycat.com/UglyEminentEidolonhelvum-size_restricted.gif)
+
+1. Clonar repositorio
+``` bash
+git clone <linK o SSH> && cd <directorio>
+```
+O  También se puede [descargar como archivo.zip aquí](https://github.com/ozmin-lab/simulacion_trayectoria/archive/refs/heads/main.zip "descargar en archivo.zip aquí") y descomprimirlo.
+
+2. Crear ambiente virtual para ejecutar el programa
+En Windows con WSL, Linux y Mac:
+``` bash
+python3 -m venv venv && source venv/bin/activate
+```
+
+3. Instalar las librerías contenidas en requirements.txt
+``` bash
+pip install -r requirements.txt
+```
+
+4. Todo Listo ya se trabajar en lo que necesites
