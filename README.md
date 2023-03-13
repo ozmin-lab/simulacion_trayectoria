@@ -31,7 +31,7 @@ Se crea una simulación de trayectoria ascendete y descendete de un globo-sonda 
 ``` bash
 git clone <linK o SSH> && cd <directorio>
 ```
-O  También se puede [descargar como archivo.zip aquí](https://github.com/ozmin-lab/simulacion_trayectoria/archive/refs/heads/main.zip "descargar en archivo.zip aquí") y descomprimirlo.
+También se puede [descargar como archivo.zip aquí](https://github.com/ozmin-lab/simulacion_trayectoria/archive/refs/heads/main.zip "descargar en archivo.zip aquí") y descomprimirlo.
 
 2. Crear ambiente virtual para ejecutar el programa
 En Windows con WSL, Linux y Mac:
